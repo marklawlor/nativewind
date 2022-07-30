@@ -28,7 +28,7 @@ NativeWind achieves this by pre-compiling your styles and uses a minimal runtime
 
 ✨ **Pseudo classes** hover / focus / active on compatible components [(docs)](../core-concepts/states#hover-focus-and-active)
 
-👪 **Parent state styles** automatically style children based upon parent pseudo classes [(docs)](../core-concepts/states#hover-focus-and-active#styling-based-on-parent-state)
+👪 **Parent state styles** automatically style children based upon parent pseudo classes [(docs)](../core-concepts/states#styling-based-on-parent-state)
 
 ## In action
 
