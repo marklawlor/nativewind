@@ -12,7 +12,7 @@ NativeWind aligns with TailwindCSS and requires you have a `tailwind.config.js` 
 
 As such, you will need to remove `TailwindProvider` from your application.
 
-Configuration is now performed by calling methods on `NativeWindStyleSheet`. Please see the
+Configuration is now performed by calling methods on `NativeWindStyleSheet`. Please read the docs for more info about NativeWindStyleSheet
 
 ## CSS is the default for web
 
