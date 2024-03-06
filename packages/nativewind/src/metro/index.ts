@@ -35,11 +35,11 @@ export function withNativeWind(
     projectRoot = process.cwd(),
     inlineRem = 14,
     configPath: tailwindConfigPath = "tailwind.config.js",
-    cliCommand = `node ${path.join(
+    cliCommand = `node "${path.join(
       require.resolve("tailwindcss/package.json"),
       "../",
       tailwindPackage.bin.tailwindcss,
-    )}`,
+    )}"`,
     browserslist = "last 1 version",
     browserslistEnv = "native",
   }: WithNativeWindOptions = {} as WithNativeWindOptions,
