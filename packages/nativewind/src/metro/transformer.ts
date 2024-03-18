@@ -22,7 +22,7 @@ export async function transform(
         config,
         projectRoot,
         filename,
-        Buffer.from(`require('${config.nativewind.output}');`, "utf8"),
+        Buffer.from(`require('${config.nativewind.output.replace(/\\/g, '\\\\')}');`, "utf8"),
         options,
       );
     } else {
